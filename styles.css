@@ -1,0 +1,80 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    background:  #457B9D;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font: 18px arial sans-serif;
+}
+
+h2 {
+    background:  #1D3557;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font: 12px arial sans-serif;
+    
+}
+.hero {
+    background-image: url("images/corkcity.jpeg");
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+    background-position: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+.activities {
+    background-color: #F1FAEE;
+    padding: 20px;
+    color: #1D3557;
+    text-align: center;
+}
+
+.activityflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.guide {
+    border-radius: 6px;
+    width: 400px;
+    padding: 10px;
+    margin: 40px auto;
+    background: #A8DADC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 10px solid #1D3557;
+}
+
+img {
+    border-radius: 50%;
+}
